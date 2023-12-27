@@ -1,13 +1,18 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+<script lang="ts">
+import { defineComponent } from 'vue'
+import HeaderEl from './components/HeaderEl.vue'
+
+export default defineComponent({
+  name: 'App',
+  components: {
+    HeaderEl
+  }
+})
 </script>
 
 <template>
   <main class="w-4/5 h-full m-auto my-10 bg-white rounded-xl shadow-xl">
-    <h1>Vue Title</h1>
-    <HelloWorld title="Title" :price="5">
-      <h1>Added title</h1>
-    </HelloWorld>
+    <HeaderEl />
   </main>
 </template>
 
