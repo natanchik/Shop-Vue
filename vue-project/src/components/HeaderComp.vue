@@ -1,10 +1,10 @@
 <template>
-  <div class="flex justify-between p-11">
+  <div class="flex justify-between">
     <div class="flex gap-4 items-center">
       <img :src="'./logo.png'" alt="Logo" class="w-10 h-10" />
       <div>
         <h2 class="text-xl font-bold">REACT SNEAKERS</h2>
-        <p class="text-[#9D9D9D]">Best sneackers shop</p>
+        <p class="text-[#9D9D9D]">Best sneakers shop</p>
       </div>
     </div>
 
