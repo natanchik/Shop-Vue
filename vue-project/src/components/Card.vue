@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative border w-[210px] h-[260px] rounded-[40px] p-7 flex flex-col gap-4 justify-center transition hover:drop-shadow-xl"
+    class="relative border w-[210px] h-[260px] rounded-[40px] p-7 flex flex-col gap-4 justify-center transition hover:shadow-lg hover:border-slate-300"
   >
     <img
       :src="favor ? './like-2.svg' : './like-1.svg'"
